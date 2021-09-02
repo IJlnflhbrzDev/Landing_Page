@@ -27,74 +27,77 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md navbar-light bg-transparent  shadow-sm">
+    <nav class="navbar navbar-expand-md navbar-light   shadow-sm">
       <div class="container">
         <a class="navbar-brand font-weight-bold" href="#">Larees.id</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+
+
+        <!-- change themes -->
+        <div class="theme-switch-wrapper">
+          <label class="theme-switch" for="checkbox">
+            <input type="checkbox" id="checkbox" title="Darkmode Or Whitemode" />
+          </label>
+        </div>
+
         <div class="collapse navbar-collapse " id="navbarNav">
           <!-- swict-mode -->
-          <ul class="navbar-nav ml-auto align-items-center swict-mode">
-            <li>
 
-              <div class="theme-switch-wrapper">
-                <label class="theme-switch" for="checkbox">
-                  <input type="checkbox" id="checkbox" title="Darkmode Or Whitemode" />
-                </label>
-              </div>
-            </li>
-          </ul>
 
-          <ul class="navbar-nav ml-auto align-items-center d-none">
+          <ul class="navbar-nav ml-auto ">
 
-            <li class="nav-item active">
+            <li class="nav-item active mr-4">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mr-4">
               <a class="nav-link" href="#about_me">About Me</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mr-4">
               <a class="nav-link" href="#fitur">Fitur</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mr-4">
               <a class="nav-link " href="#get_started">Get Started</a>
             </li>
           </ul>
-
         </div>
+      </div>
+
       </div>
     </nav>
 
     <section class="faq mt-5">
       <div class="container">
         <div class="row">
-          <div class="col-3">
+          <div class="col-lg-3 col-md-12">
             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-              <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
-                aria-controls="v-pills-home" aria-selected="true">Bagaimana saya mendaftar
+              <a class="nav-link active heading-faq" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home"
+                role="tab" aria-controls="v-pills-home" aria-selected="true">
+                Bagaimana saya mendaftar
                 di
                 Larees.id ?
               </a>
-              <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
-                aria-controls="v-pills-profile" aria-selected="false">Saya sudah mendaftar tapi tidak mendapat email
+              <a class="nav-link heading-faq" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile"
+                role="tab" aria-controls="v-pills-profile" aria-selected="false">Saya sudah mendaftar tapi tidak
+                mendapat email
                 verifikasi, bagaimana?
               </a>
-              <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
-                aria-controls="v-pills-messages" aria-selected="false">Apa yang harus saya lakukan setelah berhasil
+              <a class="nav-link heading-faq" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages"
+                role="tab" aria-controls="v-pills-messages" aria-selected="false">Apa yang harus saya lakukan setelah
+                berhasil
                 terdaftar di Larees?
               </a>
-              <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
-                aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+
             </div>
           </div>
-          <div class="col-9">
+          <div class="col-lg-9 col-md-12 mt-5">
             <div class="tab-content" id="v-pills-tabContent">
               <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                 aria-labelledby="v-pills-home-tab">
                 <div class="content-faq">
-                  <h1> Bagaimana saya mendaftar di Larees.id ?</h1>
+                  <h2> Bagaimana saya mendaftar di Larees.id ?</h2>
                   <p>Untuk mendaftar di Larees.id cara nya mudah sekali, ikuti
                     langkah-langkah berikut</p>
 
@@ -115,8 +118,8 @@
               </div>
               <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                 <div class="content-faq">
-                  <h1> Saya sudah mendaftar tapi tidak mendapat email verifikasi, bagaimana?
-                  </h1>
+                  <h2> Saya sudah mendaftar tapi tidak mendapat email verifikasi, bagaimana?
+                  </h2>
                   <p>Tenang jangan khawatir. Cek hal berikut:
                   </p>
 
@@ -141,9 +144,9 @@
               </div>
               <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
                 <div class="content-faq">
-                  <h1>Apa yang harus saya lakukan setelah berhasil terdaftar di Larees?
-
-                  </h1>
+                  <!-- <i class="fa fa-file-text" aria-hidden="true"></i> -->
+                  <h2>Apa yang harus saya lakukan setelah berhasil terdaftar di Larees?
+                  </h2>
                   <p>Selamat bergabung di Larees.id <br />
                     Setelah berhasil login untuk pertama kali, hal penting yang anda harus lakukan adalah
 
@@ -153,8 +156,7 @@
 
                 </div>
               </div>
-              <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-                ...</div>
+
             </div>
           </div>
         </div>

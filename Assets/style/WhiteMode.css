@@ -240,4 +240,9 @@ a:hover {
   .container-about-us .about-us-pelayanan .sub-title-pelayanan {
     margin: 12px 0px 0px 5px;
   }
+
+  /* FAQ */
+  .faq h2 {
+    font-size: 25px;
+  }
 }
