@@ -152,8 +152,8 @@ th {
 .theme-switch-wrapper {
   text-decoration: none;
   position: fixed;
-  bottom: 90px;
-  right: 30px;
+  bottom: 20px;
+  right: 20px;
   overflow: hidden;
   font-size: 26px;
   z-index: 20;
