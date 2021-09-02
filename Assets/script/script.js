@@ -11,7 +11,6 @@ function switchTheme(e) {
 		document.documentElement.setAttribute('data-theme', 'dark');
 		localStorage.setItem('theme', 'dark'); //add this
 
-
 	}
 }
 toggleSwitch.addEventListener('change', switchTheme, false);
@@ -21,6 +20,6 @@ if (currentTheme) {
 	document.documentElement.setAttribute('data-theme', currentTheme);
 
 	if (currentTheme === 'ligh') {
-		toggleSwitch.checked = false;
+		toggleSwitch.checked = true;
 	}
 }
