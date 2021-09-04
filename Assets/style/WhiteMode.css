@@ -1,274 +1,255 @@
 :root {
-  --default-bg: white;
-  --default-color: #3c5186;
-  --default-bg-2: #34599b;
-  --default-color-sidebar: #818896;
-  --default-color-hover-sidebar: #16c7ff;
-  --default-color-submenu-sidebar: #3a3f48;
+	--default-bg: white;
+	--default-color: #3c5186;
+	--default-bg-2: #34599b;
+	--default-color-sidebar: #818896;
+	--default-color-hover-sidebar: #16c7ff;
+	--default-color-submenu-sidebar: #3a3f48;
 }
 
 /** 2. Default CSS  **/
 body {
-  font-family: "Nunito", sans-serif;
-  color: var(--default-color);
-  font-weight: 400;
-  background-color: var(--default-bg);
-  overflow-x: hidden;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	font-family: "Nunito", sans-serif;
+	color: var(--default-color);
+	font-weight: 400;
+	background-color: var(--default-bg);
+	overflow-x: hidden;
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 .theme-switch .fas::before {
-  content: "\f185" !important;
+	content: "\f185" !important;
 }
 [data-theme="dark"] .theme-switch .fas::before {
-  content: "\f186" !important;
+	content: "\f186" !important;
 }
 
 h2 {
-  font-weight: 700;
+	font-weight: 700;
 }
 * {
-  padding: 0;
-  margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 /* sub-heading */
 
 .sub-heading-center {
-  font-size: 13px;
-  letter-spacing: 1px;
-  font-weight: 700;
-  margin: 0;
-  color: var(--default-bg-2);
-  text-transform: uppercase;
+	font-size: 13px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	margin: 0;
+	color: var(--default-bg-2);
+	text-transform: uppercase;
 }
 
 .card {
-  background-color: var(--default-bg);
+	background-color: var(--default-bg);
 }
 /* HEADER */
 
 /* LINK NAVIGATION */
 .navbar {
-  background-color: var(--default-bg);
+	background-color: var(--default-bg);
 }
 .navbar-nav .nav-item .nav-link {
-  font-size: 16px;
+	font-size: 16px;
 }
 header {
-  width: 100%;
-  min-height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+	width: 100%;
+	min-height: 100vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
 }
 
 header h1 {
-  line-height: 1.2;
-  font-size: 48px;
-  font-weight: 800;
-  color: var(--default-color);
+	line-height: 1.2;
+	font-size: 48px;
+	font-weight: 800;
+	color: var(--default-color);
 }
 header .btn-primary {
-  color: white;
-  font-size: 18px;
-  background-color: var(--default-bg-2);
-  border-color: var(--default-color);
-  margin-top: 30px;
-  line-height: 0;
-  padding: 20px 40px;
-  letter-spacing: 2px !important;
-  border-radius: 20px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  -webkit-text-stroke: thin;
-  font-weight: bold;
-  -webkit-text-stroke-color: var(--default-color);
-  letter-spacing: 1px;
+	color: white;
+	font-size: 18px;
+	background-color: var(--default-bg-2);
+	border-color: var(--default-color);
+	margin-top: 30px;
+	line-height: 0;
+	padding: 20px 40px;
+	letter-spacing: 2px !important;
+	border-radius: 20px;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	-webkit-text-stroke: thin;
+	font-weight: bold;
+	-webkit-text-stroke-color: var(--default-color);
+	letter-spacing: 1px;
 }
 
 .container-about-us {
-  padding: 3rem;
+	padding: 3rem;
 }
 .container-about-us .about-us-pelayanan .icons-pelayanan {
-  margin-top: 11px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  border: 2px solid var(--default-bg-2);
-  border-radius: 50%;
+	margin-top: 11px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	width: -webkit-max-content;
+	width: -moz-max-content;
+	width: max-content;
+	height: -webkit-max-content;
+	height: -moz-max-content;
+	height: max-content;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	border: 2px solid var(--default-bg-2);
+	border-radius: 50%;
 }
 .container-about-us .about-us-pelayanan .icons-pelayanan i {
-  font-size: 40px;
-  color: var(--default-bg-2);
+	font-size: 40px;
+	color: var(--default-bg-2);
 }
 .container-about-us .about-us-pelayanan .sub-title-pelayanan {
-  margin-left: 40px;
+	margin-left: 40px;
 }
 .container-about-us .about-us-pelayanan .sub-title-pelayanan a {
-  font-weight: 700;
-  margin-bottom: 10px;
-  font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	font-size: 18px;
 }
 .container-about-us .about-us-pelayanan .sub-title-pelayanan p {
-  line-height: 24px;
-  font-size: 16px;
+	line-height: 24px;
+	font-size: 16px;
 }
 .iconts_box_mini {
-  margin-top: 30px;
-  -webkit-box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.1);
-  box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.1);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-pack: stretch;
-  -ms-flex-pack: stretch;
-  justify-content: stretch;
-  padding: 20px;
+	margin-top: 30px;
+	-webkit-box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.1);
+	box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.1);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: stretch;
+	-ms-flex-pack: stretch;
+	justify-content: stretch;
+	padding: 20px;
 }
 .iconts_box_mini h3 {
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 7px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 7px;
 }
 .iconts_box_mini i {
-  color: var(--default-bg-2);
-  margin-right: 10px;
-  font-size: 32px;
+	color: var(--default-bg-2);
+	margin-right: 10px;
+	font-size: 32px;
 }
 
 /* cta */
 .cta {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(2, 2, 2, 0.5)), to(rgba(0, 0, 0, 0.8))),
-    url("https://images.unsplash.com/photo-1549194388-f61be84a6e9e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80") center center;
-  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)),
-    url("https://images.unsplash.com/photo-1549194388-f61be84a6e9e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80") center center;
-  height: 279px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  text-align: center;
+	background: -webkit-gradient(linear, left top, left bottom, from(rgba(2, 2, 2, 0.5)), to(rgba(0, 0, 0, 0.8))),
+		url("https://images.unsplash.com/photo-1549194388-f61be84a6e9e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80") center center;
+	background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)),
+		url("https://images.unsplash.com/photo-1549194388-f61be84a6e9e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=752&q=80") center center;
+	height: 279px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-align: center;
 }
 
 .cta .content_cta h2 {
-  letter-spacing: 1px;
-  color: var(--default-bg) !important;
+	letter-spacing: 1px;
+	color: var(--default-bg) !important;
 }
 
 .cta .content_cta p {
-  width: 80%;
-  margin: 10px auto 0 auto;
-  color: var(--default-bg) !important;
+	width: 80%;
+	margin: 10px auto 0 auto;
+	color: var(--default-bg) !important;
 }
 
 .cta .btn {
-  text-transform: uppercase;
-  margin-top: 20px;
-  color: var(--default-bg);
-  border-radius: 50px;
-  border: 1px solid var(--default-bg);
-  padding: 8px 40px;
-  font-size: 16px;
+	text-transform: uppercase;
+	margin-top: 20px;
+	color: var(--default-bg);
+	border-radius: 50px;
+	border: 1px solid var(--default-bg);
+	padding: 8px 40px;
+	font-size: 16px;
 }
 
 .cta .btn:hover {
-  background-color: var(--default-color);
-  border-color: var(--default-color);
-  -webkit-transition: all 0.55s ease;
-  transition: all 0.55s ease;
+	background-color: var(--default-color);
+	border-color: var(--default-color);
+	-webkit-transition: all 0.55s ease;
+	transition: all 0.55s ease;
 }
 
 /* faq */
 .faq .nav-pills .nav-link {
-  border-radius: 0;
+	border-radius: 0;
 }
 .content-faq li {
-  margin-left: 19px;
-  margin-bottom: 8px;
+	margin-left: 19px;
+	margin-bottom: 8px;
 }
 a {
-  color: #3b82f6;
+	color: #3b82f6;
 }
 
 a:hover {
-  color: #1e3a8a;
+	color: #1e3a8a;
 }
-/* .list_number ol li {
-  margin-left: 0;
-  margin: 0 0 0.5rem 0;
-  counter-increment: my-awesome-counter;
-  position: relative;
-  list-style-type: none;
-} */
-/* ol li::before {
-  content: counter(my-awesome-counter);
-  color: white;
-  font-weight: bold;
-  width: 25px;
-  height: 21px;
-  background: var(--default-color);
-  border-radius: 50%;
-  text-align: center;
-  margin-right: 16px;
-  display: inline-block;
-} */
 
 @media (max-width: 552px) {
-  header h1 {
-    font-size: 40px;
-  }
-  .container-fluid,
-  .container-sm,
-  .container-md,
-  .container-lg,
-  .container-xl {
-    padding: 0;
-    margin: 0;
-  }
+	header h1 {
+		font-size: 40px;
+	}
+	.container-fluid,
+	.container-sm,
+	.container-md,
+	.container-lg,
+	.container-xl {
+		padding: 0;
+		margin: 0;
+	}
 
-  .container-about-us {
-    padding: 0.5rem 1rem;
-  }
+	.container-about-us {
+		padding: 0.5rem 1rem;
+	}
 
-  /* about us content */
-  .about-us-pelayanan .card-body {
-    flex-direction: column;
-  }
-  .container-about-us .about-us-pelayanan .sub-title-pelayanan {
-    margin: 12px 0px 0px 5px;
-  }
+	/* about us content */
+	.about-us-pelayanan .card-body {
+		flex-direction: column;
+	}
+	.container-about-us .about-us-pelayanan .sub-title-pelayanan {
+		margin: 12px 0px 0px 5px;
+	}
 
-  /* FAQ */
-  .faq h2 {
-    font-size: 25px;
-  }
+	/* FAQ */
+	.faq h2 {
+		font-size: 25px;
+	}
 }
