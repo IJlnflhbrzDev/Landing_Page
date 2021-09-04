@@ -222,14 +222,14 @@ a {
 a:hover {
   color: #1e3a8a;
 }
-.list_number ol li {
+/* .list_number ol li {
   margin-left: 0;
   margin: 0 0 0.5rem 0;
   counter-increment: my-awesome-counter;
   position: relative;
   list-style-type: none;
-}
-ol li::before {
+} */
+/* ol li::before {
   content: counter(my-awesome-counter);
   color: white;
   font-weight: bold;
@@ -240,7 +240,7 @@ ol li::before {
   text-align: center;
   margin-right: 16px;
   display: inline-block;
-}
+} */
 
 @media (max-width: 552px) {
   header h1 {
