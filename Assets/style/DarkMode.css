@@ -1,109 +1,109 @@
 :root {
-  --font-color-nav: #818896;
-  --bg-card: #243042;
-  --bg-color: #1d2635;
-  --bg-sidebar-color: #243042;
-  --line-color: #2e3544;
-  --bg-submenu-sidebar-color: #344052;
-  --bg-color-2: #34599b;
-  --font-color-active: #f7f7f8;
-  --font-color: #f7f7f8;
-  --secondary-color: #818cab;
-  --color: #243042;
-  --primary-color: #9a97f3;
+	--font-color-nav: #818896;
+	--bg-card: #243042;
+	--bg-color: #1d2635;
+	--bg-sidebar-color: #243042;
+	--line-color: #2e3544;
+	--bg-submenu-sidebar-color: #344052;
+	--bg-color-2: #34599b;
+	--font-color-active: #f7f7f8;
+	--font-color: #f7f7f8;
+	--secondary-color: #818cab;
+	--color: #243042;
+	--primary-color: #9a97f3;
 }
 
 /** Default CSS **/
 [data-theme="dark"] body {
-  background-color: var(--bg-color);
-  color: var(--font-color);
-  line-height: 1.5;
+	background-color: var(--bg-color);
+	color: var(--font-color);
+	line-height: 1.5;
 }
 
 [data-theme="dark"] .iconts_box_mini {
-  background-color: var(--bg-card);
+	background-color: var(--bg-card);
 }
 
 [data-theme="dark"] .navbar-light .navbar-nav .show > .nav-link,
 .navbar-light .navbar-nav .active > .nav-link,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .nav-link.active {
-  color: var(--font-color-active);
+	color: var(--font-color-active);
 }
 [data-theme="dark"] .navbar {
-  background-color: var(--bg-card);
+	background-color: var(--bg-card);
 }
 [data-theme="dark"] .navbar-light .navbar-toggler-icon {
-  filter: invert(1);
+	filter: invert(1);
 }
 [data-theme="dark"] .navbar-light .navbar-nav .nav-link {
-  color: var(--font-color);
+	color: var(--font-color);
 }
 [data-theme="dark"] .navbar-light .navbar-nav .nav-link:hover {
-  color: var(--bg-color-2);
+	color: var(--bg-color-2);
 }
 [data-theme="dark"] .navbar-light .navbar-brand {
-  color: var(--font-color);
+	color: var(--font-color);
 }
 [data-theme="dark"] .card {
-  background-color: var(--bg-card);
+	background-color: var(--bg-card);
 }
 
 [data-theme="dark"] .modal .modal-content {
-  background-color: var(--bg-card);
+	background-color: var(--bg-card);
 }
 [data-theme="dark"] .modal-header .close {
-  color: white;
-  opacity: 1;
+	color: white;
+	opacity: 1;
 }
 .modal {
-  top: 25% !important;
+	top: 25% !important;
 }
 
 [data-theme="dark"] .card-header {
-  background-color: var(--bg-card);
+	background-color: var(--bg-card);
 }
 [data-theme="dark"] .footer {
-  background-color: var(--bg-color);
+	background-color: var(--bg-color);
 }
 [data-theme="dark"] .footer,
 hr .line {
-  border-top: 1px solid var(--line-color);
+	border-top: 1px solid var(--line-color);
 }
 [data-theme="dark"] .progress {
-  border: 1px solid var(--bg-color);
-  background-color: var(--bg-card);
+	border: 1px solid var(--bg-color);
+	background-color: var(--bg-card);
 }
 [data-theme="dark"] .dropdown-menu {
-  background-color: var(--bg-card);
+	background-color: var(--bg-card);
 }
 [data-theme="dark"] .dropdown-item {
-  color: var(--font-color);
+	color: var(--font-color);
 }
 
 [data-theme="dark"] .list-group .list-group-item {
-  background-color: var(--bg-card);
+	background-color: var(--bg-card);
 }
 
 [data-theme="dark"] .list-group-item.active {
-  background-color: #007bff;
+	background-color: #007bff;
 }
 [data-theme="dark"] .table tr td,
 th {
-  color: var(--font-color);
+	color: var(--font-color);
 }
 
 [data-theme="dark"] .card-footer {
-  background-color: var(--bg-card);
+	background-color: var(--bg-card);
 }
 [data-theme="dark"] .note-editor.note-airframe,
 .note-editor.note-frame {
-  background-color: var(--font-color);
-  color: var(--color);
+	background-color: var(--font-color);
+	color: var(--color);
 }
 
 [data-theme="dark"] #error {
-  background: var(--bg-color);
+	background: var(--bg-color);
 }
 
 [data-theme="dark"] .topbar .bars button,
@@ -112,70 +112,71 @@ th {
 .topbar .menu ul li a:hover,
 .topbar .menu ul li .dropdown-toggle:hover,
 .topbar .menu ul li .dropdown-toggle {
-  color: var(--font-color-nav);
+	color: var(--font-color-nav);
 }
 
 /* HEADER */
 
 [data-theme="dark"] header h1 {
-  color: var(--font-color);
+	color: var(--font-color);
 }
 
 [data-theme="dark"] header .btn-primary {
-  color: var(--font-color);
-  background-color: var(--bg-color-2);
-  border-color: var(--bg-color);
+	color: var(--font-color);
+	background-color: var(--bg-color-2);
+	border-color: var(--bg-color);
 }
 
 /* abouut_us */
 
 [data-theme="dark"] .container-about-us .about-us-pelayanan .card:hover .icons-pelayanan {
-  background: var(--bg-color-2);
+	background: var(--bg-color-2);
 }
 
 [data-theme="dark"] .container-about-us .about-us-pelayanan .card:hover .icons-pelayanan i {
-  color: var(--font-color);
+	color: var(--font-color);
 }
 
 [data-theme="dark"] .container-about-us .about-us-pelayanan .icons-pelayanan {
-  border: 2px solid var(--bg-color-2);
+	border: 2px solid var(--bg-color-2);
 }
 
 [data-theme="dark"] .container-about-us .about-us-pelayanan .icons-pelayanan i {
-  color: var(--bg-color-2);
+	color: var(--bg-color-2);
 }
 
 [data-theme="dark"] .iconts_box_mini i {
-  color: var(--bg-color-2);
+	color: var(--bg-color-2);
 }
 
 .theme-switch-wrapper {
-  text-decoration: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  overflow: hidden;
-  font-size: 26px;
-  z-index: 20;
-  width: 51px;
-  height: 51px;
-  line-height: 46px;
-  text-align: center;
-  border-radius: 5px;
-  background: var(--bg-color-2);
-  color: var(--font-color);
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  cursor: pointer;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  top: auto;
+	text-decoration: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	overflow: hidden;
+	font-size: 26px;
+	z-index: 20;
+	width: 51px;
+	height: 51px;
+	line-height: 46px;
+	text-align: center;
+	border-radius: 5px;
+	background: var(--bg-color-2);
+	color: var(--font-color);
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	cursor: pointer;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	top: auto;
 }
 #checkbox {
-  cursor: pointer;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	opacity: 0;
 }
