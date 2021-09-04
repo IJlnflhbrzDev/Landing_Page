@@ -17,6 +17,13 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
+.theme-switch .fas::before {
+  content: "\f185" !important;
+}
+[data-theme="dark"] .theme-switch .fas::before {
+  content: "\f186" !important;
+}
+
 h2 {
   font-weight: 700;
 }
