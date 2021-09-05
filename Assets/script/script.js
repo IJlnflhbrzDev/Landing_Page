@@ -25,3 +25,14 @@ if (currentTheme) {
 }
 console.log(currentTheme)
 
+
+// event show card email
+
+const btn_email = document.querySelector(".btn-mail button");
+btn_email.addEventListener("click", function () {
+	document.querySelector(".form-help .card").classList.toggle("show-card");
+});
+const close_btn_email = document.querySelector(".form-help .close");
+close_btn_email.addEventListener("click", function () {
+	document.querySelector(".form-help .card").classList.remove("show-card");
+})

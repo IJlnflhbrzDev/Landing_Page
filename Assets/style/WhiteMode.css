@@ -252,4 +252,12 @@ a:hover {
 	.faq h2 {
 		font-size: 25px;
 	}
+
+	/* button help@larees.id */
+	div.form-help .card {
+		width: 100vw;
+		min-height: 100% !important;
+		right: 0;
+		top: 0;
+	}
 }
