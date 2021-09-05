@@ -211,6 +211,9 @@ header .btn-primary {
 .faq .nav-pills .nav-link {
 	border-radius: 0;
 }
+[data-theme="light"] .form-help .close {
+	color: var(--default-color-submenu-sidebar);
+}
 .content-faq li {
 	margin-left: 19px;
 	margin-bottom: 8px;
