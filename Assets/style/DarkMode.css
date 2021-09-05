@@ -30,6 +30,9 @@
 .navbar-light .navbar-nav .nav-link.active {
 	color: var(--font-color-active);
 }
+.navbar-toggler {
+	display: none !important;
+}
 [data-theme="dark"] .navbar {
 	background-color: var(--bg-card);
 }
@@ -189,7 +192,7 @@ th {
 	overflow-y: auto;
 	border-radius: 30px;
 	transition: all 0.55s ease;
-	z-index: 1;
+	z-index: 99;
 	opacity: 1;
 }
 .form-help .close {
